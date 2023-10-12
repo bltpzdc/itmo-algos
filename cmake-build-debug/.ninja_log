@@ -1,0 +1,10 @@
+# ninja log v5
+1	431	7188320914435624	CMakeFiles/itmo_algos.dir/main.cpp.obj	f4614d6b8649a674
+1044	1304	7188325122580293	config.exe	bc1aef59060881e8
+728	958	7188323099592586	itmo_algos.exe	b2e1c559d6acd12e
+1	691	7188323096973458	CMakeFiles/itmo_algos.dir/introduction/agronomist.cpp.obj	4d395cafdedd21f3
+0	974	7188324196619659	CMakeFiles/zoo.dir/introduction/zoo.cpp.obj	b14a4ab0427cf068
+977	1223	7188324199091316	zoo.exe	e8f9aeceef7bd78d
+0	1043	7188325119958089	CMakeFiles/config.dir/introduction/config.cpp.obj	92e068e4d24036bd
+1	600	7188325888777498	CMakeFiles/professor.dir/introduction/professor.cpp.obj	cbe4a5773f3b386d
+602	808	7188325890807449	professor.exe	d8d4f458e71c4e78

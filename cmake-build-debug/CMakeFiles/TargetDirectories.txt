@@ -1,0 +1,6 @@
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/agronomist.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/zoo.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/config.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/professor.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

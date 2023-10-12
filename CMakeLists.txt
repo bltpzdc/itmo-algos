@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.23)
+project(itmo_algos)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(agronomist introduction/agronomist.cpp)
+add_executable(zoo introduction/zoo.cpp)
+add_executable(config introduction/config.cpp)
+add_executable(professor introduction/professor.cpp)
