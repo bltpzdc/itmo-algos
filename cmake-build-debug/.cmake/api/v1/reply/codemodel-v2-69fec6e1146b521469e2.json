@@ -22,7 +22,11 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -44,7 +48,11 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -55,6 +63,13 @@
 					"id" : "agronomist::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-agronomist-Debug-d09e60f5b48dd2255f08.json",
 					"name" : "agronomist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cars::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cars-Debug-af5e3293e5587bc979c8.json",
+					"name" : "cars",
 					"projectIndex" : 0
 				},
 				{
@@ -73,9 +88,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "goblins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-goblins-Debug-8bc9430cd55683005ca5.json",
+					"name" : "goblins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "market::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-market-Debug-efaa673e7543a9339e5f.json",
 					"name" : "market",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "memory_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-memory_manager-Debug-dfd3100671dfed316590.json",
+					"name" : "memory_manager",
 					"projectIndex" : 0
 				},
 				{
@@ -97,6 +126,13 @@
 					"id" : "professor::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-professor-Debug-93934d843e78ee4f4098.json",
 					"name" : "professor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "section::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-section-Debug-cd4520a2a4797adf9539.json",
+					"name" : "section",
 					"projectIndex" : 0
 				},
 				{

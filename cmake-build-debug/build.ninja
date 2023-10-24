@@ -304,6 +304,138 @@ build number.exe: CXX_EXECUTABLE_LINKER__number_Debug CMakeFiles/number.dir/sort
   TARGET_IMPLIB = libnumber.dll.a
   TARGET_PDB = number.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target cars
+
+
+#############################################
+# Order-only phony target for cars
+
+build cmake_object_order_depends_target_cars: phony || CMakeFiles/cars.dir
+
+build CMakeFiles/cars.dir/data_structures/cars.cpp.obj: CXX_COMPILER__cars_Debug C$:/Users/Honor/CLionProjects/itmo-algos/data_structures/cars.cpp || cmake_object_order_depends_target_cars
+  DEP_FILE = CMakeFiles\cars.dir\data_structures\cars.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\cars.dir
+  OBJECT_FILE_DIR = CMakeFiles\cars.dir\data_structures
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cars
+
+
+#############################################
+# Link the executable cars.exe
+
+build cars.exe: CXX_EXECUTABLE_LINKER__cars_Debug CMakeFiles/cars.dir/data_structures/cars.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\cars.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cars.exe
+  TARGET_IMPLIB = libcars.dll.a
+  TARGET_PDB = cars.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target goblins
+
+
+#############################################
+# Order-only phony target for goblins
+
+build cmake_object_order_depends_target_goblins: phony || CMakeFiles/goblins.dir
+
+build CMakeFiles/goblins.dir/data_structures/goblins.cpp.obj: CXX_COMPILER__goblins_Debug C$:/Users/Honor/CLionProjects/itmo-algos/data_structures/goblins.cpp || cmake_object_order_depends_target_goblins
+  DEP_FILE = CMakeFiles\goblins.dir\data_structures\goblins.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\goblins.dir
+  OBJECT_FILE_DIR = CMakeFiles\goblins.dir\data_structures
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target goblins
+
+
+#############################################
+# Link the executable goblins.exe
+
+build goblins.exe: CXX_EXECUTABLE_LINKER__goblins_Debug CMakeFiles/goblins.dir/data_structures/goblins.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\goblins.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = goblins.exe
+  TARGET_IMPLIB = libgoblins.dll.a
+  TARGET_PDB = goblins.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target memory_manager
+
+
+#############################################
+# Order-only phony target for memory_manager
+
+build cmake_object_order_depends_target_memory_manager: phony || CMakeFiles/memory_manager.dir
+
+build CMakeFiles/memory_manager.dir/data_structures/memory_manager.cpp.obj: CXX_COMPILER__memory_manager_Debug C$:/Users/Honor/CLionProjects/itmo-algos/data_structures/memory_manager.cpp || cmake_object_order_depends_target_memory_manager
+  DEP_FILE = CMakeFiles\memory_manager.dir\data_structures\memory_manager.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\memory_manager.dir
+  OBJECT_FILE_DIR = CMakeFiles\memory_manager.dir\data_structures
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target memory_manager
+
+
+#############################################
+# Link the executable memory_manager.exe
+
+build memory_manager.exe: CXX_EXECUTABLE_LINKER__memory_manager_Debug CMakeFiles/memory_manager.dir/data_structures/memory_manager.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\memory_manager.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = memory_manager.exe
+  TARGET_IMPLIB = libmemory_manager.dll.a
+  TARGET_PDB = memory_manager.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target section
+
+
+#############################################
+# Order-only phony target for section
+
+build cmake_object_order_depends_target_section: phony || CMakeFiles/section.dir
+
+build CMakeFiles/section.dir/data_structures/section.cpp.obj: CXX_COMPILER__section_Debug C$:/Users/Honor/CLionProjects/itmo-algos/data_structures/section.cpp || cmake_object_order_depends_target_section
+  DEP_FILE = CMakeFiles\section.dir\data_structures\section.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\section.dir
+  OBJECT_FILE_DIR = CMakeFiles\section.dir\data_structures
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target section
+
+
+#############################################
+# Link the executable section.exe
+
+build section.exe: CXX_EXECUTABLE_LINKER__section_Debug CMakeFiles/section.dir/data_structures/section.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\section.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = section.exe
+  TARGET_IMPLIB = libsection.dll.a
+  TARGET_PDB = section.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -332,17 +464,25 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build agronomist: phony agronomist.exe
 
+build cars: phony cars.exe
+
 build config: phony config.exe
 
 build cows: phony cows.exe
 
+build goblins: phony goblins.exe
+
 build market: phony market.exe
+
+build memory_manager: phony memory_manager.exe
 
 build nightmare: phony nightmare.exe
 
 build number: phony number.exe
 
 build professor: phony professor.exe
+
+build section: phony section.exe
 
 build zoo: phony zoo.exe
 
@@ -354,7 +494,7 @@ build zoo: phony zoo.exe
 #############################################
 # Folder: C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug
 
-build all: phony agronomist.exe zoo.exe config.exe professor.exe cows.exe market.exe nightmare.exe number.exe
+build all: phony agronomist.exe zoo.exe config.exe professor.exe cows.exe market.exe nightmare.exe number.exe cars.exe goblins.exe memory_manager.exe section.exe
 
 # =============================================================================
 # Built-in targets

@@ -6,5 +6,9 @@ C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/cows.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/market.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/nightmare.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/number.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/cars.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/goblins.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/memory_manager.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/section.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
