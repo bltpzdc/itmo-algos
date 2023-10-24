@@ -10,5 +10,9 @@ C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/cars.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/goblins.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/memory_manager.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/section.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/cheating.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/civilization.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/flights.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/pigs.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

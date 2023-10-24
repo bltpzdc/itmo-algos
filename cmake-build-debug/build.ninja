@@ -436,6 +436,138 @@ build section.exe: CXX_EXECUTABLE_LINKER__section_Debug CMakeFiles/section.dir/d
   TARGET_IMPLIB = libsection.dll.a
   TARGET_PDB = section.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target cheating
+
+
+#############################################
+# Order-only phony target for cheating
+
+build cmake_object_order_depends_target_cheating: phony || CMakeFiles/cheating.dir
+
+build CMakeFiles/cheating.dir/graphs/cheating.cpp.obj: CXX_COMPILER__cheating_Debug C$:/Users/Honor/CLionProjects/itmo-algos/graphs/cheating.cpp || cmake_object_order_depends_target_cheating
+  DEP_FILE = CMakeFiles\cheating.dir\graphs\cheating.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\cheating.dir
+  OBJECT_FILE_DIR = CMakeFiles\cheating.dir\graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cheating
+
+
+#############################################
+# Link the executable cheating.exe
+
+build cheating.exe: CXX_EXECUTABLE_LINKER__cheating_Debug CMakeFiles/cheating.dir/graphs/cheating.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\cheating.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cheating.exe
+  TARGET_IMPLIB = libcheating.dll.a
+  TARGET_PDB = cheating.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target civilization
+
+
+#############################################
+# Order-only phony target for civilization
+
+build cmake_object_order_depends_target_civilization: phony || CMakeFiles/civilization.dir
+
+build CMakeFiles/civilization.dir/graphs/civilization.cpp.obj: CXX_COMPILER__civilization_Debug C$:/Users/Honor/CLionProjects/itmo-algos/graphs/civilization.cpp || cmake_object_order_depends_target_civilization
+  DEP_FILE = CMakeFiles\civilization.dir\graphs\civilization.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\civilization.dir
+  OBJECT_FILE_DIR = CMakeFiles\civilization.dir\graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target civilization
+
+
+#############################################
+# Link the executable civilization.exe
+
+build civilization.exe: CXX_EXECUTABLE_LINKER__civilization_Debug CMakeFiles/civilization.dir/graphs/civilization.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\civilization.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = civilization.exe
+  TARGET_IMPLIB = libcivilization.dll.a
+  TARGET_PDB = civilization.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target flights
+
+
+#############################################
+# Order-only phony target for flights
+
+build cmake_object_order_depends_target_flights: phony || CMakeFiles/flights.dir
+
+build CMakeFiles/flights.dir/graphs/flights.cpp.obj: CXX_COMPILER__flights_Debug C$:/Users/Honor/CLionProjects/itmo-algos/graphs/flights.cpp || cmake_object_order_depends_target_flights
+  DEP_FILE = CMakeFiles\flights.dir\graphs\flights.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\flights.dir
+  OBJECT_FILE_DIR = CMakeFiles\flights.dir\graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target flights
+
+
+#############################################
+# Link the executable flights.exe
+
+build flights.exe: CXX_EXECUTABLE_LINKER__flights_Debug CMakeFiles/flights.dir/graphs/flights.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\flights.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = flights.exe
+  TARGET_IMPLIB = libflights.dll.a
+  TARGET_PDB = flights.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pigs
+
+
+#############################################
+# Order-only phony target for pigs
+
+build cmake_object_order_depends_target_pigs: phony || CMakeFiles/pigs.dir
+
+build CMakeFiles/pigs.dir/graphs/pigs.cpp.obj: CXX_COMPILER__pigs_Debug C$:/Users/Honor/CLionProjects/itmo-algos/graphs/pigs.cpp || cmake_object_order_depends_target_pigs
+  DEP_FILE = CMakeFiles\pigs.dir\graphs\pigs.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\pigs.dir
+  OBJECT_FILE_DIR = CMakeFiles\pigs.dir\graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pigs
+
+
+#############################################
+# Link the executable pigs.exe
+
+build pigs.exe: CXX_EXECUTABLE_LINKER__pigs_Debug CMakeFiles/pigs.dir/graphs/pigs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pigs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pigs.exe
+  TARGET_IMPLIB = libpigs.dll.a
+  TARGET_PDB = pigs.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -466,9 +598,15 @@ build agronomist: phony agronomist.exe
 
 build cars: phony cars.exe
 
+build cheating: phony cheating.exe
+
+build civilization: phony civilization.exe
+
 build config: phony config.exe
 
 build cows: phony cows.exe
+
+build flights: phony flights.exe
 
 build goblins: phony goblins.exe
 
@@ -479,6 +617,8 @@ build memory_manager: phony memory_manager.exe
 build nightmare: phony nightmare.exe
 
 build number: phony number.exe
+
+build pigs: phony pigs.exe
 
 build professor: phony professor.exe
 
@@ -494,7 +634,7 @@ build zoo: phony zoo.exe
 #############################################
 # Folder: C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug
 
-build all: phony agronomist.exe zoo.exe config.exe professor.exe cows.exe market.exe nightmare.exe number.exe cars.exe goblins.exe memory_manager.exe section.exe
+build all: phony agronomist.exe zoo.exe config.exe professor.exe cows.exe market.exe nightmare.exe number.exe cars.exe goblins.exe memory_manager.exe section.exe cheating.exe civilization.exe flights.exe pigs.exe
 
 # =============================================================================
 # Built-in targets
