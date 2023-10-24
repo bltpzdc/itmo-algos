@@ -18,7 +18,11 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -36,7 +40,11 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -54,6 +62,34 @@
 					"id" : "config::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-config-Debug-c246c8ab5d25cc584f7a.json",
 					"name" : "config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cows::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cows-Debug-115f20e0524a96257d3f.json",
+					"name" : "cows",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "market::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-market-Debug-efaa673e7543a9339e5f.json",
+					"name" : "market",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nightmare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nightmare-Debug-1fe5c8aa17119371a05b.json",
+					"name" : "nightmare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "number::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-number-Debug-f3b52be7e32b4943a88c.json",
+					"name" : "number",
 					"projectIndex" : 0
 				},
 				{

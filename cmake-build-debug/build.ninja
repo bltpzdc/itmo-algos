@@ -172,6 +172,138 @@ build professor.exe: CXX_EXECUTABLE_LINKER__professor_Debug CMakeFiles/professor
   TARGET_IMPLIB = libprofessor.dll.a
   TARGET_PDB = professor.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target cows
+
+
+#############################################
+# Order-only phony target for cows
+
+build cmake_object_order_depends_target_cows: phony || CMakeFiles/cows.dir
+
+build CMakeFiles/cows.dir/sorting/cows.cpp.obj: CXX_COMPILER__cows_Debug C$:/Users/Honor/CLionProjects/itmo-algos/sorting/cows.cpp || cmake_object_order_depends_target_cows
+  DEP_FILE = CMakeFiles\cows.dir\sorting\cows.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\cows.dir
+  OBJECT_FILE_DIR = CMakeFiles\cows.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cows
+
+
+#############################################
+# Link the executable cows.exe
+
+build cows.exe: CXX_EXECUTABLE_LINKER__cows_Debug CMakeFiles/cows.dir/sorting/cows.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\cows.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cows.exe
+  TARGET_IMPLIB = libcows.dll.a
+  TARGET_PDB = cows.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target market
+
+
+#############################################
+# Order-only phony target for market
+
+build cmake_object_order_depends_target_market: phony || CMakeFiles/market.dir
+
+build CMakeFiles/market.dir/sorting/market.cpp.obj: CXX_COMPILER__market_Debug C$:/Users/Honor/CLionProjects/itmo-algos/sorting/market.cpp || cmake_object_order_depends_target_market
+  DEP_FILE = CMakeFiles\market.dir\sorting\market.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\market.dir
+  OBJECT_FILE_DIR = CMakeFiles\market.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target market
+
+
+#############################################
+# Link the executable market.exe
+
+build market.exe: CXX_EXECUTABLE_LINKER__market_Debug CMakeFiles/market.dir/sorting/market.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\market.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = market.exe
+  TARGET_IMPLIB = libmarket.dll.a
+  TARGET_PDB = market.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target nightmare
+
+
+#############################################
+# Order-only phony target for nightmare
+
+build cmake_object_order_depends_target_nightmare: phony || CMakeFiles/nightmare.dir
+
+build CMakeFiles/nightmare.dir/sorting/nightmare.cpp.obj: CXX_COMPILER__nightmare_Debug C$:/Users/Honor/CLionProjects/itmo-algos/sorting/nightmare.cpp || cmake_object_order_depends_target_nightmare
+  DEP_FILE = CMakeFiles\nightmare.dir\sorting\nightmare.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\nightmare.dir
+  OBJECT_FILE_DIR = CMakeFiles\nightmare.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target nightmare
+
+
+#############################################
+# Link the executable nightmare.exe
+
+build nightmare.exe: CXX_EXECUTABLE_LINKER__nightmare_Debug CMakeFiles/nightmare.dir/sorting/nightmare.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\nightmare.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = nightmare.exe
+  TARGET_IMPLIB = libnightmare.dll.a
+  TARGET_PDB = nightmare.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target number
+
+
+#############################################
+# Order-only phony target for number
+
+build cmake_object_order_depends_target_number: phony || CMakeFiles/number.dir
+
+build CMakeFiles/number.dir/sorting/number.cpp.obj: CXX_COMPILER__number_Debug C$:/Users/Honor/CLionProjects/itmo-algos/sorting/number.cpp || cmake_object_order_depends_target_number
+  DEP_FILE = CMakeFiles\number.dir\sorting\number.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\number.dir
+  OBJECT_FILE_DIR = CMakeFiles\number.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target number
+
+
+#############################################
+# Link the executable number.exe
+
+build number.exe: CXX_EXECUTABLE_LINKER__number_Debug CMakeFiles/number.dir/sorting/number.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\number.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = number.exe
+  TARGET_IMPLIB = libnumber.dll.a
+  TARGET_PDB = number.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -202,6 +334,14 @@ build agronomist: phony agronomist.exe
 
 build config: phony config.exe
 
+build cows: phony cows.exe
+
+build market: phony market.exe
+
+build nightmare: phony nightmare.exe
+
+build number: phony number.exe
+
 build professor: phony professor.exe
 
 build zoo: phony zoo.exe
@@ -214,7 +354,7 @@ build zoo: phony zoo.exe
 #############################################
 # Folder: C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug
 
-build all: phony agronomist.exe zoo.exe config.exe professor.exe
+build all: phony agronomist.exe zoo.exe config.exe professor.exe cows.exe market.exe nightmare.exe number.exe
 
 # =============================================================================
 # Built-in targets

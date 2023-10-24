@@ -2,5 +2,9 @@ C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/agronomist.
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/zoo.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/config.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/professor.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/cows.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/market.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/nightmare.dir
+C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/number.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Honor/CLionProjects/itmo-algos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
